@@ -30,9 +30,8 @@ The project opens on Eclipse or IntelliJ.
 
 To build for the first time
 ===========================
-.. code:: bash
 
-    mvn clean install -U
+`mvn clean install -U`
 
 To execute the project, two possibilities
 =========================================
@@ -41,9 +40,7 @@ Method 1
 - Copy the sources on an RHEL, go to the directory where is located
 the pom of the project namely kafka_consumer and type the command:
 
-.. code:: bash
-
-    mvn clean install -U spring-boot:run -Dspring.kafka.consumer.group-id="consumer1" -Drun.arguments="AME"
+`mvn clean install -U spring-boot:run -Dspring.kafka.consumer.group-id="consumer1" -Drun.arguments="AME"``
 
 - the argument spring.kafka.consumer.group-id allows to execute several consumers
 - the argument run.arguments allows you to choose what type of event you want
@@ -55,7 +52,5 @@ Method 2
 - Build a jar and copy it to the RHEL machine, go to the directory
 where the jar is and type the following command:
 
-.. code:: bash
-
-    nohup java -jar kafka_consumer.jar -Dspring.kafka.consumer.group-id="consumer1" -Drun.arguments="AME" &
+`nohup java -jar kafka_consumer.jar -Dspring.kafka.consumer.group-id="consumer1" -Drun.arguments="AME" &`
     
