@@ -15,7 +15,7 @@
   <h3 align="center"></h3>
 
   <p align="center">
-    The purpose of this program is to offer good programming practices in Python, when you want to build a program that can go to a production target. You can then look at how to structure a project and its various components. And inspire you to create a new project or improve the quality of existing projects.
+    Code produced to check the technical feasibility of reading a topic events from Kafka from java code. This project is the part that consumes the events in Kafka. This code can be used to read events.
     <br />
     <a href="https://github.com/AntoineMeheut/GoodDevPractices/tree/master/docs"><strong>Explore Kafka docs</strong></a>
     <br />
